@@ -1,0 +1,31 @@
+{
+  "name": "testcafe-simple",
+  "version": "1.0.0",
+  "description": "Simple test to learn TestCafe",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "^1.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx testcafe chrome",
+    "tests": "npx testcafe chrome ./tests/*.spec.ts",
+    "tests:debug": "npx testcafe chrome ./tests/*.spec.ts --debug-mode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasmagni/testcafe-simple.git"
+  },
+  "keywords": [
+    "testcafe",
+    "simple",
+    "matiasmagni",
+    "mmagni"
+  ],
+  "author": "Matias J. Magni",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/matiasmagni/testcafe-simple/issues"
+  },
+  "homepage": "https://github.com/matiasmagni/testcafe-simple#readme"
+}
